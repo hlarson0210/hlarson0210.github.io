@@ -204,12 +204,14 @@ button {
     color: white;
     top: 105px;
     padding: 10px 36px 10px 36px;
+    text-align: center;
 }
 #RPG {
     background-color: #4aaaa5;
     color: white;
     top: 105px;
     padding: 10px 26px 10px 27px;
+    text-align: center;
 }
 
 #Trivia {
@@ -224,6 +226,7 @@ button {
     color: white;
     top: 105px;
     padding: 10px 54px 10px 53px;
+    text-align: center;
 }
 
 #Rock{
@@ -231,6 +234,7 @@ button {
     color: white;
     top: 105px;
     padding: 10px 30px 10px 29px;
+    text-align: center;
 }
 
 .content-width::after{
