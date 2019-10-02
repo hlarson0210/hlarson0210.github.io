@@ -3,65 +3,108 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset=UTF-8>
+    <Title>Portfolio</Title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
+
     <header>
-        <div class="menu-bar">
-            <h1>Hayden Larson</h1>
-            <div class="buttons">
-                <div class="contact-btn"><a href="contact.html">Contact</a></div>
-                <div class="portfolio-btn"><a href="portfolio.html">Portfolio</a></div>
-                <div class="about-btn"><a href="index.html">About</a></div>
-            </div>
+        <div class="row border-bottom mt-0 mx-0 mb-5">
+            <div class="bg-white col col-lg-3 m-0"></div>
+
+            <nav class="navbar navbar-nav navbar-expand-lg bg-white col col-lg-6 my-0 py-0">
+                <h1>Hayden Larson</h1>
+                <ul class="nav justify-content-end ml-5">
+                    <li class="nav-item">
+                        <a class="ml-5 mr-2" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="mx-2" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="mx-2" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="bg-white col col-lg-3 m-0"></div>
         </div>
     </header>
 
-    <div class="content-width">
-        <h2>Portfolio</h2>
 
-        <div class="wrap">
-            <div class="float">
-                <img src="https://thespiritualpsychic.com/wp-content/uploads/2016/12/psychic31.jpg">
-                <h5 id="Hangman"><a href="https://hlarson0210.github.io/Psychic-Game/" target="blank" class="links">Psychic Game</a>
+    <div class="row">
+        <div class="col col-lg-3"></div>
+        <form class="col col-lg-6 bg-white p-3 mb-5">
+
+            <h2>Portfolio</h2>
+
+            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
+                <img src="https://thespiritualpsychic.com/wp-content/uploads/2016/12/psychic31.jpg" class="card-img-top"
+                    style="height: 11rem">
+                <h5 class=" position-relative"><a class="text-white" href="https://hlarson0210.github.io/Psychic-Game/"
+                        target="blank">Psychic Game</a></h5>
+            </div>
+
+            <div class="float-left mt-2 mr-3" style="width: 11rem; height: 11rem">
+                <img src="https://i.pinimg.com/originals/58/3d/8c/583d8c0fcc57e936b0a3257f2f3bf52d.jpg"
+                    class="card-img-top" style="height: 11rem">
+                <h5 class="position-relative"><a class="text-white" href="https://hlarson0210.github.io/unit-4-game/"
+                        target="blank">Crystal Collector</a></h5>
+            </div>
+
+            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
+                <img src="https://i.ytimg.com/vi/8yy0cdS1Bb8/maxresdefault.jpg" class="card-img-top"
+                    style="height: 11rem">
+                <h5 class=" position-relative"><a class="text-white" href="https://hlarson0210.github.io/TriviaGame/" target="blank">
+                        Trivia Game</a></h5>
+            </div>
+
+            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
+                <img src="http://i3.wp.com/mickeyblog.com/wp-content/uploads/2018/09/Disney-Channel-logo-720x340.jpg"
+                    class="card-img-top" style="height: 11rem">
+                <h5 class="position-relative"><a class="text-white" href="https://hlarson0210.github.io/giphy/"
+                        target="blank">Giftastic</a></h5>
+            </div>
+
+            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
+                <img src="https://media.wired.com/photos/5d72aa55c891950008ce33c1/master/pass/Transpo_Amtrak_MOB-TRAIN-BY-PININFARINA-2.jpg"
+                    class="card-img-top" style="height: 11rem">
+                <h5 class="position-relative"><a class="text-white" href="https://hlarson0210.github.io/Traintastic/" target="blank">Train
+                        Scheduler</a></h5>
+            </div>
+
+            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
+                <img src="https://i2.wp.com/storage.googleapis.com/blog-images-backup/1*4VBxaeHaxTxjZiPbI7g3kw.jpeg?resize=960%2C750&ssl=1"
+                    class="card-img-top" style="height: 11rem">
+                <h5 class="position-relative"><a class="text-white" href="https://github.com/hlarson0210/liri-node-app"
+                        target="blank">Node-Liri-Bot</a>
                 </h5>
             </div>
 
-            <div class="float">
-                <img src="https://i.pinimg.com/originals/58/3d/8c/583d8c0fcc57e936b0a3257f2f3bf52d.jpg">
-                <h5 id="RPG"><a href="https://hlarson0210.github.io/unit-4-game/" target="blank" class="links">Crystal Collector</a>
-                </h5>
-            </div>
-        </div>
-        <div class="wrap2">
-            <div class="float">
-                <img src="https://i.ytimg.com/vi/8yy0cdS1Bb8/maxresdefault.jpg">
-                <h5 id="Trivia"><a href="https://hlarson0210.github.io/TriviaGame/" target="blank" class="links">Trivia Game</a></h5>
+            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
+                <img src="../Basic-Portfolio/assets/images/rock.jpg" class="card-img-top" style="height: 11rem">
+                <h5 class="position-relative"><a class="text-white" href="https://github.com/hlarson0210/bamazon"
+                        target="blank" class="links">Bamazon-Node-App</a></h5>
             </div>
 
-            <div class="float">
-                <img src="http://i3.wp.com/mickeyblog.com/wp-content/uploads/2018/09/Disney-Channel-logo-720x340.jpg">
-                <h5 id="Rutgers"><a href="https://hlarson0210.github.io/giphy/" target="blank" class="links">Giftastic</a></h5>
-            </div>
-        </div>
-        <div class="wrap3">
-            <div class="float">
-                <img
-                    src="https://media.wired.com/photos/5d72aa55c891950008ce33c1/master/pass/Transpo_Amtrak_MOB-TRAIN-BY-PININFARINA-2.jpg">
-                <h5 id="Rock"><a href="https://hlarson0210.github.io/Traintastic/" target="blank" class="links">Train Scheduler</a>
-                </h5>
-            </div>
-        </div>
 
+
+        </form>
+        <div class="col col-lg-3 clearfix"></div>
     </div>
 
 
-    <footer>Hayden Larson Copyright © 2019 hlarson398@gmail.com</footer>
+
+
+
+    <footer class="nav justify-content-center">
+        Hayden Larson Copyright © 2019 hlarson398@gmail.com
+    </footer>
+
+
 </body>
-
-
-</html>
