@@ -1,0 +1,13 @@
+@media screen and (max-width: 640px) {
+    .my-name {
+        width: 65%;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .my-name {
+        width: 67%;
+        align-content: right;
+    }
+}

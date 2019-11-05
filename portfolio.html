@@ -1,122 +1,275 @@
 <!DOCTYPE html>
-
 <html lang="en-us">
 
 <head>
     <meta charset=UTF-8>
     <Title>Portfolio</Title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpeg" href="./Assests/Images/HL.png">
+    <link rel="stylesheet" type="text/css" href="./Assests/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-
-    <header>
-        <div class="row border-bottom mt-0 mx-0 mb-5">
-            <div class="bg-white col col-lg-3 m-0"></div>
-
-            <nav class="navbar navbar-nav navbar-expand-lg bg-white col col-lg-6 my-0 py-0">
-                <h1>Hayden Larson</h1>
-                <ul class="nav justify-content-end ml-5">
-                    <li class="nav-item">
-                        <a class="ml-5 mr-2" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="mx-2" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="mx-2" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="bg-white col col-lg-3 m-0"></div>
+    <nav>
+        <div class="nav-wrapper black">
+            <div class="container">
+                <div class="row">
+                    <a href="#!" class="brand-logo offset-s3 my-name">Hayden Larson</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="indexRedo.html">About</a></li>
+                        <li><a href="portfolioRedo.html">Portfolio</a></li>
+                        <li><a href="contactRedo.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </header>
+    </nav>
 
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="indexRedo.html">About</a></li>
+        <li><a href="portfolioRedo.html">Portfolio</a></li>
+        <li><a href="contactRedo.html">Contact</a></li>
+    </ul>
 
-    <div class="row">
-        <div class="col col-lg-3"></div>
-        <form class="col col-lg-6 bg-white p-3 mb-5">
+    <!-- <div class="parallax-container" style="height: 200px; width: 100%;">
+        <div class="parallax"><img src="https://miro.medium.com/max/3000/1*3QBN7WL4h39wR_wN6pwAPw.jpeg"></div>
+    </div> -->
 
-            <h2>Portfolio</h2>
-
-            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
-                <img src="https://thespiritualpsychic.com/wp-content/uploads/2016/12/psychic31.jpg" class="card-img-top"
-                    style="height: 11rem">
-                <h5 class=" position-relative"><a class="text-white" href="https://hlarson0210.github.io/Psychic-Game/"
-                        target="_blank">Psychic Game</a></h5>
-            </div>
-
-            <div class="float-left mt-2 mr-3" style="width: 11rem; height: 11rem">
-                <img src="https://i.pinimg.com/originals/58/3d/8c/583d8c0fcc57e936b0a3257f2f3bf52d.jpg"
-                    class="card-img-top" style="height: 11rem">
-                <h5 class="position-relative"><a class="text-white" href="https://hlarson0210.github.io/unit-4-game/"
-                        target="_blank">Crystal Collector</a></h5>
-            </div>
-
-            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
-                <img src="https://cdn.images.express.co.uk/img/dynamic/143/590x/Fortnite-Update-909466.jpg" class="card-img-top"
-                    style="height: 11rem">
-                <h5 class=" position-relative"><a class="text-white" href="https://hlarson0210.github.io/TriviaGame/"
-                        target="_blank">
-                        Trivia Game</a></h5>
-            </div>
-
-            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
-                <img src="http://i3.wp.com/mickeyblog.com/wp-content/uploads/2018/09/Disney-Channel-logo-720x340.jpg"
-                    class="card-img-top" style="height: 11rem">
-                <h5 class="position-relative"><a class="text-white" href="https://hlarson0210.github.io/giphy/"
-                        target="_blank">Giftastic</a></h5>
-            </div>
-
-            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
-                <img src="https://media.wired.com/photos/5d72aa55c891950008ce33c1/master/pass/Transpo_Amtrak_MOB-TRAIN-BY-PININFARINA-2.jpg"
-                    class="card-img-top" style="height: 11rem">
-                <h5 class="position-relative"><a class="text-white" href="https://hlarson0210.github.io/Traintastic/"
-                        target="_blank">Train
-                        Scheduler</a></h5>
-            </div>
-
-            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
-                <img src="https://i2.wp.com/storage.googleapis.com/blog-images-backup/1*4VBxaeHaxTxjZiPbI7g3kw.jpeg?resize=960%2C750&ssl=1"
-                    class="card-img-top" style="height: 11rem">
-                <h5 class="position-relative"><a class="text-white" href="https://github.com/hlarson0210/liri-node-app"
-                        target="_blank">Node-Liri-Bot</a>
-                </h5>
-            </div>
-
-            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
-                <img src="https://www.mercedes-benz.com/wp-content/uploads/sites/3/2014/11/classic_store_museumsshop_d385089_3400x1440.jpg" class="card-img-top" style="height: 11rem">
-                <h5 class="position-relative"><a class="text-white" href="https://github.com/hlarson0210/bamazon"
-                        target="_blank" class="links">Bamazon-Node-App</a></h5>
-            </div>
-
-            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
-                <img src="https://timesofindia.indiatimes.com/thumb/msid-70500973,imgsize-113264,width-800,height-600,resizemode-4/70500973.jpg" class="card-img-top" style="height: 11rem">
-                <h5 class="position-relative"><a class="text-white" href="https://peaceful-springs-25490.herokuapp.com/"
-                        target="_blank" class="links">Friend Finder</a></h5>
-            </div>
-
-            <div class=" float-left mt-2 mr-3" style="width: 11rem;">
-                <img src="https://res.cloudinary.com/teepublic/image/private/s--xyST5os1--/t_Preview/b_rgb:ffb81c,c_limit,f_jpg,h_630,q_90,w_630/v1556355628/production/designs/4726743_0.jpg" class="card-img-top" style="height: 11rem">
-                <h5 class="position-relative"><a class="text-white" href="https://pacific-headland-08582.herokuapp.com/"
-                        target="_blank" class="links">Build-a-Burger</a></h5>
-            </div>
-
-        </form>
-        <div class="col col-lg-3 clearfix"></div>
+    <div class="parallax-container" style="height: 200px; width: 100%;">
+        <div class="parallax"><img src="https://i.makeagif.com/media/3-14-2017/SvAJAH.gif"></div>
     </div>
 
+    <div class="container">
 
+        <div class="row no-pad-bot">
+            <h3 class="center parallaxText">Portfolio</h3>
+        </div>
+        <div class="divider"></div>
 
+        <div class="carousel">
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;"
+                            src="https://thespiritualpsychic.com/wp-content/uploads/2016/12/psychic31.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Psychic Game</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://hlarson0210.github.io/Psychic-Game/" target="_blank">Play Here!</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Psychic Game<i
+                                class="material-icons right">close</i></span>
+                        <p>Randomized-onclick guessing game</p>
+                        <p><a href="https://github.com/hlarson0210/Psychic-Game/" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;"
+                            src="https://i.pinimg.com/originals/58/3d/8c/583d8c0fcc57e936b0a3257f2f3bf52d.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Crystal Collector</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://hlarson0210.github.io/unit-4-game/" target="_blank">Play Here!</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Crystal Collector<i
+                                class="material-icons right">close</i></span>
+                        <p>Randomized-onclick matching game</p>
+                        <p><a href="https://github.com/hlarson0210/unit-4-game" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;"
+                            src="https://cdn.images.express.co.uk/img/dynamic/143/590x/Fortnite-Update-909466.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Trivia Game</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://hlarson0210.github.io/TriviaGame/" target="_blank">Play Here!</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Trivia Game<i
+                                class="material-icons right">close</i></span>
+                        <p>Trivia game testing your Fornite knowledge</p>
+                        <p><a href="https://github.com/hlarson0210/TriviaGame" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;"
+                            src="https://cdn.cnn.com/cnnnext/dam/assets/160127090820-money-disney-logo-exlarge-169.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Giftastic</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://hlarson0210.github.io/giphy/" target="_blank">Play Here!</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Giftastic<i
+                                class="material-icons right">close</i></span>
+                        <p>Introduction to API calls. Take in the value from a button onclick and display gifs in a
+                            still state - click on the gif and transform it to an active state, click again and back to
+                            still.</p>
+                        <p><a href="https://github.com/hlarson0210/giphy" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;"
+                            src="https://roberthinderliter.files.wordpress.com/2016/10/night-train.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Train Scheduler</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://hlarson0210.github.io/Traintastic/" target="_blank">Check it out!</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Train Scheduler<i
+                                class="material-icons right">close</i></span>
+                        <p>This app will take in your search parameters and create a train schedule for your inquery
+                            using moment.js to use realtime scheduling</p>
+                        <p><a href="https://github.com/hlarson0210/Traintastic" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;"
+                            src="https://i2.wp.com/storage.googleapis.com/blog-images-backup/1*4VBxaeHaxTxjZiPbI7g3kw.jpeg?resize=960%2C750&ssl=1">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Node-Liri-Bot</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://github.com/hlarson0210/liri-node-app" target="_blank">Github Repo</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Node-Liri-Bot<i
+                                class="material-icons right">close</i></span>
+                        <p>LIRI is a command line node app that takes in parameters and gives you back data. LIRI will
+                            search Spotify for songs, Bands in Town for concerts, and OMDB for movies.</p>
+                        <p><a href="https://github.com/hlarson0210/liri-node-app" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;"
+                            src="https://static.seattletimes.com/wp-content/uploads/2018/05/05082018_1950snorthgate_1358422-1020x810.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Bamazon-Node-App</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://github.com/hlarson0210/bamazon" target="_blank">Github Repo</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Bamazon-Node-App<i
+                                class="material-icons right">close</i></span>
+                        <p>Introduction to MySQL through a node.js command line application</p>
+                        <p><a href="https://github.com/hlarson0210/bamazon" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;" src="./Assests/Images/friends.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Friend Finder</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://peaceful-springs-25490.herokuapp.com/" target="_blank">Find your friend!</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Friend Finder<i
+                                class="material-icons right">close</i></span>
+                        <p>Quiz backed by a database to match you to the closest friend who has taken the quiz</p>
+                        <p><a href="https://github.com/hlarson0210/Friend-Finder" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item green">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" style="height: 175px;" src="./Assests/Images/burger.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            <h6>Build-a-Burger</h6><i class="material-icons right">more_vert</i>
+                        </span>
+                        <p><a href="https://pacific-headland-08582.herokuapp.com/" target="_blank">Hungry?</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Build-a-Burger<i
+                                class="material-icons right">close</i></span>
+                        <p>Build a burger and add it to our menu, store it in our database, and Devour it with a click
+                            of a button!</p>
+                        <p><a href="https://github.com/hlarson0210/burger" target="_blank">Github Repo</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <br>
+    <div class="parallax-container" style="height: 300px; width: 100%;">
+        <div class="parallax"><img src="https://i.makeagif.com/media/3-14-2017/SvAJAH.gif"></div>
+    </div>
 
-    <footer class="nav justify-content-center">
-        Hayden Larson Copyright © 2019 hlarson398@gmail.com
+    <footer class="page-footer black">
+        <div class="container center">
+            Hayden Larson Copyright © 2019 hlarson398@gmail.com
+        </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+        });
+    </script>
 
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            font-family: 'Julius Sans One', sans-serif;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+    </style>
 </body>
