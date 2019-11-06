@@ -15,12 +15,22 @@ footer {
     padding-left: 300px;
 }
 
+.contact-img {
+    height: 3%;
+    width: 3%;
+}
+
 @media only screen and (max-width : 992px) {
 
     header,
     main,
     footer {
         padding-left: 0;
+    }
+
+    .contact-img {
+        height: 3%;
+        width: 3%;
     }
 }
 
@@ -30,12 +40,24 @@ footer {
         width: 65%;
         align-content: center;
     }
+
+    .contact-img {
+        height: 10%;
+        width: 10%;
+        margin-left: 3%;
+    }
 }
 
 @media screen and (max-width: 360px) {
     .my-name {
         width: 67%;
         align-content: right;
+    }
+
+    .contact-img {
+        height: 10%;
+        width: 10%;
+        margin-left: 3%;
     }
 } 
 
