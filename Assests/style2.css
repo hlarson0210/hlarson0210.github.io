@@ -15,6 +15,17 @@ footer {
     padding-left: 300px;
 }
 
+.mini-menu {
+    height: 100%; 
+    width: 100%;
+}
+
+.mini-contact {
+    position: fixed; 
+    left: 0; 
+    bottom: 100px;
+}
+
 .contact-img {
     height: 3%;
     width: 3%;
