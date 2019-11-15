@@ -22,7 +22,6 @@
                     <ul class="right hide-on-med-and-down">
                         <li><a href="index.html">About</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -30,9 +29,28 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <div class="parallax-container" style="height: 100%; width: 100%;">
+            <li><a href="index.html" class="parallaxText black white-text"><b>About</b></a></li>
+            <li><a href="portfolio.html" class="parallaxText black white-text"><b>Portfolio</b></a></li>
+
+            <div class="parallax"><img src="https://media.giphy.com/media/hox1qb0F9UbFdOBUFN/giphy.gif">
+            </div>
+
+            <footer style="position: fixed; left: 0; bottom: 35px;" class="page-footer black">
+                <div class="black">
+                    <div class="row">
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Connect on</h5>
+                            <p class="white-text text-lighten-4"><a
+                                    href="https://www.linkedin.com/in/hayden-larson-5b994196" class="white-text"
+                                    style="text-decoration: underline;" target="blank">linkedIn</a> || <a
+                                    href="https://github.com/hlarson0210" class="white-text"
+                                    style="text-decoration: underline;" target="blank">Github</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </ul>
 
     <div class="parallax-container" style="height: 200px; width: 100%;">
@@ -47,7 +65,7 @@
 
         <div class="row section">
             <div class="col s8 offset-s2 center">
-                <img src="./Assests/Images/Hayden.jpg" class="section left" id="hayden"
+                <img src="./Assests/Images/Hayden.jpg" class="section " id="hayden"
                     style="height: 200px; width:200px;"></img>
                 <p class="section para">
                     Hi there! My name is Hayden Larson, I was born and raised in the Twin City area in Minnesota. My
@@ -69,26 +87,19 @@
     </div>
 
 
-    <br>
     <div class="parallax-container" style="height: 300px; width: 100%;">
         <div class="parallax"><img src="https://solutionblue.com/wp-content/uploads/2013/08/st-paul-skyline.jpg"></div>
     </div>
 
 
-    <footer class="page-footer black">
-        <div class="container center">
-            Hayden Larson Copyright © 2019 hlarson398@gmail.com
+    <footer class="page-footer black center">
+        <div>
+            HL Copyright © 2019
         </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.carousel').carousel();
-            $('.sidenav').sidenav();
-            $('.parallax').parallax();
-        });
-    </script>
+    <script src="Assests/app.js"></script>
 </body>
